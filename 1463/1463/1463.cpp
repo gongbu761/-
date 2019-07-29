@@ -32,7 +32,7 @@ int main()
 	}
 	printf("%d", dp[x]);
 
-	
+	 
    
 }
  
