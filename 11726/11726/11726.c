@@ -25,7 +25,7 @@ int dp(int n) {
 		return D[n];
 	}
 	else {
-		return D[n] = (dp(n - 1) + 2 * dp(n - 2)) % 10007;
+		return D[n] = (dp(n - 1) +  dp(n - 2)) % 10007;
 		//자료형 숫자 오버해서 나눠줘야함
 	}
 }
